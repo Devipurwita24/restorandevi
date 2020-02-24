@@ -10,14 +10,14 @@
 <h1>login form</h1>
 
 
-<form action="menu.php" method="post">
+<form action="cek_user.php" method="post">
 <img src="2.jpg" width =500>
 <p>
     <label for="username" >username</label>;
     <input type="text" name="username" placeholder="username"  required>
     <p>
     <label for="password">password</label>;
-    <input type="text" name="password" placeholder="password"  required>
+    <input type="password" name="password" placeholder="password"  required>
     </p>
     
     <button type="submit">submit</button>
@@ -25,7 +25,14 @@
 </p>
 </form>
 
-
-
+<?php
+    if(isset($_GET['pesan'])){
+        if($_GET['pesan'] == "gagal"){
+            echo "login gagal!usernam atau password salah";
+        }else if($_GET['pesan']=="login"){
+            echo "anda berhasil login";
+        }
+    }
+?>
 </body>
 </html>

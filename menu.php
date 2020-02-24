@@ -38,6 +38,7 @@
     <h1>masukkan 1 pesanan anda dibawah</h1>
 
     <form action="trims.php" method="get">
+        
         <label for="makanan">makanan</label>
         <input type="text" name ="makanan" placeholder = "makanan" required>
         <p>
@@ -45,8 +46,11 @@
         <input type="text" name = "minuman" placeholder = "minuman" required>
         </p>
         <button type="submit">pesan</button>
+
+        
     </form>
 
+    
     
 </body>
 </html>

@@ -5,4 +5,5 @@ $password = "";
 $database = "restoran";
 
 $connect = mysqli_connect($host,$username,$password,$database);
+
 ?>
