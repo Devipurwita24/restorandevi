@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="test.css">
 </head>
-<body>
+<body align="center">
+    <br><br><br><br><br><br><br>
+    <div id="judul">
     <h1>ANDA BERHASIL LOGIN!</h1>
+    </div>
 </body>
 </html>

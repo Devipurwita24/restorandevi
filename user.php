@@ -28,7 +28,7 @@
 <?php
     if(isset($_GET['pesan'])){
         if($_GET['pesan'] == "gagal"){
-            echo "login gagal!usernam atau password salah";
+            echo "login gagal!username atau password salah";
         }else if($_GET['pesan']=="login"){
             echo "anda berhasil login";
         }

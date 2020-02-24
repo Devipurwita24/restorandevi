@@ -20,7 +20,7 @@
         <tr>
             <td>
                 <div id="reg">
-                <a href="registrasi.php">REGISTRIASI</a>
+                <a href="registrasi.php">REGISTRASI</a>
                 </div>
             </td>
         </tr>
